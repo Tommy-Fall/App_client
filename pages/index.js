@@ -3,7 +3,8 @@
 export default function Home({message}) {
   return (
     <div>
-      {message.time}
+      <div>Hello</div>
+      <div>Time: {message.time}</div>
     </div>
   )
 }
